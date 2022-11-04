@@ -7,10 +7,11 @@ void main() {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Phone(),
+        
 
         appBar: AppBar(title: Text('APELSEN'),automaticallyImplyLeading: false ,
         backgroundColor: Color(0xffF1650E,),),
-        
+
         // appBar: AppBar(
         // actions: [TextButton(onPressed: (){}, child: Icon(Icons.account_circle,color: Colors.white,size: 40,)) ],
         //   backgroundColor: Colors.green,
